@@ -87,4 +87,9 @@ def process_video():
     video.release()
     cv2.destroyAllWindows()
 ```   
+
+## 영상 처리
+
+```
 process_video()
+```

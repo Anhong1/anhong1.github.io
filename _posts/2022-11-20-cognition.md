@@ -1,11 +1,12 @@
 ---
 layout: single
 title: "머신러닝 실습 사람이 나타났다"
----ㅣ
+---
 
 ```python
 import warnings
 warning.fileterwarnings('ignore')
+```
 
 ## 모듈 import
 
@@ -15,10 +16,14 @@ import cv2
 import winsound
 ```
 
+## 파일 불러오기
+
+```
 classes=[]
 f=open('coco.names.txt','r')
 classes=[line.strip() for line in f.readlines()]
 colors=np.random.uniform(0,255,size=(len(classes),3))
+```
 
 ## 욜로 모델 읽어오기
 
@@ -70,7 +75,7 @@ def process_video():
                    
             cv2.imshow('Object detection',img)
 
-##사람이 검출됨
+## 사람이 검출됨
 
 ```
             if 0 in class_ids:

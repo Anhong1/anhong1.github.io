@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "머신러닝 실습 사람이 나타났다"
+title: "머신러닝 실습: 사람이 나타났다"
 ---
 
 ```python

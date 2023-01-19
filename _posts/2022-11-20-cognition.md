@@ -1,6 +1,13 @@
 ---
 layout: single
 title: "머신러닝 실습: 사람이 나타났다"
+
+tags:
+  - 머신러닝
+  - yolo
+  
+categories:
+  - 머신러닝
 ---
 
 ```python
